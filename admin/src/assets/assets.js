@@ -16,4 +16,4 @@ export const assets ={
     profile
 }
 
-export const url = 'http://localhost:4000'
+export const url = `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`
